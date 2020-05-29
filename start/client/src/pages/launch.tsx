@@ -17,9 +17,10 @@ export const GET_LAUNCH_DETAILS = gql`
       }
       ...LaunchTile
     }
-    ${LAUNCH_TILE_DATA}
   }
+  ${LAUNCH_TILE_DATA}
 `
+
 interface LaunchProps extends RouteComponentProps {
   launchId?: any
 }
